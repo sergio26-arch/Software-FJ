@@ -16,7 +16,7 @@ from datetime import datetime
 
 # Registro de eventos y errores
 
-
+#
 def registrar_log(mensaje):
 
     try:
