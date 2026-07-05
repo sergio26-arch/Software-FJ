@@ -16,7 +16,7 @@ from datetime import datetime
 
 # Registro de eventos y errores
 
-#
+#1
 def registrar_log(mensaje):
 
     try:
@@ -45,7 +45,7 @@ def registrar_log(mensaje):
 # Excepciones personalizadas
 
 
-
+#
 class ErrorSistema(Exception):
 
     pass
