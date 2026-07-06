@@ -1,0 +1,52 @@
+2026-07-05 19:58:31.378576 --> Cliente registrado: Ana Torres | ana@fj.com
+2026-07-05 19:58:31.378832 --> OP 2 fallida: El nombre no puede estar vacío
+2026-07-05 19:58:31.378987 --> OP 3 fallida: Correo electrónico inválido
+2026-07-05 19:58:31.379115 --> Servicio creado: Sala Ejecutiva - $50000
+2026-07-05 19:58:31.379274 --> Servicio creado: Proyector 4K - $30000
+2026-07-05 19:58:31.379421 --> Servicio creado: Asesoría Legal - $80000
+2026-07-05 19:58:31.379538 --> Proceso de reserva finalizado
+2026-07-05 19:58:31.379627 --> Reserva procesada por $150000
+2026-07-05 19:58:31.379727 --> Costo sala con impuesto: $119000.0
+2026-07-05 19:58:31.379838 --> Costo equipo con descuento: $127500.0
+2026-07-05 19:58:31.381266 --> OP 10 fallida: La duración debe ser mayor a cero
+2026-07-05 19:58:31.381384 --> OP 11 fallida: Cantidad de horas incorrecta
+2026-07-05 19:58:31.381559 --> OP 12 fallida: No se puede procesar una reserva cancelada
+2026-07-05 19:58:31.381659 --> OP 13 fallida: El precio debe ser mayor a cero
+2026-07-05 19:59:21.998779 --> Cliente registrado: Ana Torres | ana@fj.com
+2026-07-05 19:59:21.999340 --> OP 2 fallida: El nombre no puede estar vacío
+2026-07-05 19:59:21.999776 --> OP 3 fallida: Correo electrónico inválido
+2026-07-05 19:59:22.000155 --> Servicio creado: Sala Ejecutiva - $50000
+2026-07-05 19:59:22.000481 --> Servicio creado: Proyector 4K - $30000
+2026-07-05 19:59:22.000792 --> Servicio creado: Asesoría Legal - $80000
+2026-07-05 19:59:22.001091 --> Proceso de reserva finalizado
+2026-07-05 19:59:22.001325 --> Reserva procesada por $150000
+2026-07-05 19:59:22.001626 --> Costo sala con impuesto: $119000.0
+2026-07-05 19:59:22.001940 --> Costo equipo con descuento: $127500.0
+2026-07-05 19:59:22.002260 --> OP 10 fallida: La duración debe ser mayor a cero
+2026-07-05 19:59:22.002547 --> OP 11 fallida: Cantidad de horas incorrecta
+2026-07-05 19:59:22.002828 --> OP 12 fallida: No se puede procesar una reserva cancelada
+2026-07-05 19:59:22.003186 --> OP 13 fallida: El precio debe ser mayor a cero
+2026-07-05 20:03:45.311631 --> [GUI] Cliente registrado: Test User | t@fj.com
+2026-07-05 20:03:45.311953 --> [GUI] Servicio creado: Sala X - $1000.0
+2026-07-05 20:03:45.312155 --> [GUI] Reserva creada: Test User | Reserva de sala | CREADA
+2026-07-05 20:04:40.138336 --> [GUI] Cliente registrado: AAAAAA | annnn@ggg.com
+2026-07-05 20:04:52.619473 --> [GUI] Servicio creado: aaa - $123456.0
+2026-07-05 20:05:06.349114 --> [GUI] Error confirmando reserva: Debe seleccionar una reserva de la lista
+2026-07-05 20:05:09.953950 --> [GUI] Reserva creada: AAAAAA | Alquiler de equipos | CREADA
+2026-07-05 20:05:12.817287 --> [GUI] Reserva confirmada: AAAAAA | Alquiler de equipos | CONFIRMADA
+2026-07-05 20:05:14.987127 --> Proceso de reserva finalizado
+2026-07-05 20:05:14.987440 --> [GUI] Reserva procesada por $246912.0
+2026-07-05 20:05:18.882465 --> Cliente registrado: Ana Torres | ana@fj.com
+2026-07-05 20:05:18.882789 --> OP 2 fallida: El nombre no puede estar vacío
+2026-07-05 20:05:18.882996 --> OP 3 fallida: Correo electrónico inválido
+2026-07-05 20:05:18.883218 --> Servicio creado: Sala Ejecutiva - $50000
+2026-07-05 20:05:18.883491 --> Servicio creado: Proyector 4K - $30000
+2026-07-05 20:05:18.883783 --> Servicio creado: Asesoría Legal - $80000
+2026-07-05 20:05:18.883967 --> Proceso de reserva finalizado
+2026-07-05 20:05:18.884097 --> Reserva procesada por $150000
+2026-07-05 20:05:18.884356 --> Costo sala con impuesto: $119000.0
+2026-07-05 20:05:18.884623 --> Costo equipo con descuento: $127500.0
+2026-07-05 20:05:18.884831 --> OP 10 fallida: La duración debe ser mayor a cero
+2026-07-05 20:05:18.884984 --> OP 11 fallida: Cantidad de horas incorrecta
+2026-07-05 20:05:18.885146 --> OP 12 fallida: No se puede procesar una reserva cancelada
+2026-07-05 20:05:18.885324 --> OP 13 fallida: El precio debe ser mayor a cero
