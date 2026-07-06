@@ -399,7 +399,7 @@ class Servicio(Entidad, ABC):
 
         self.nombre = nombre
         self.precio = precio
-
+#
 # Clase que maneja las listas de Juan Cardozo
 class SistemaFJ:
 
