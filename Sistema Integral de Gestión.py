@@ -376,9 +376,48 @@ class Reserva:
 
         self.estado = "CREADA"
 
+# Validacion de servicio de Juan Cardozo
+class Servicio(Entidad, ABC):
 
+    contador = 1
 
+    def __init__(self, nombre, precio):
 
+        super().__init__(Servicio.contador)
+
+        if nombre.strip() == "":
+            raise ServicioInvalidoError(
+                "El nombre del servicio no puede estar vacío"
+            )
+
+        if precio <= 0:
+            raise ServicioInvalidoError(
+                "El precio debe ser mayor que cero"
+            )
+
+        Servicio.contador += 1
+
+        self.nombre = nombre
+        self.precio = precio
+
+# Clase que maneja las listas de Juan Cardozo
+class SistemaFJ:
+
+    def __init__(self):
+        self.clientes = []
+        self.servicios = []
+        self.reservas = []
+
+    def agregar_cliente(self, cliente):
+        self.clientes.append(cliente)
+
+    def agregar_servicio(self, servicio):
+        self.servicios.append(servicio)
+
+    def agregar_reserva(self, reserva):
+        self.reservas.append(reserva)
+
+#
     def confirmar(self):
 
         self.estado="CONFIRMADA"
@@ -440,3 +479,7 @@ class Reserva:
             f"{self.estado}"
 
         )
+
+ventana = tk.Tk()
+# configuración de la ventana...
+ventana.mainloop()
